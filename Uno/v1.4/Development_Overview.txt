@@ -1,0 +1,23 @@
+Hardware development starting with v1.3:
+Goals for v1.3:
+-Verifying functionality of LED indicators.
+-Finding the highest usable pulldown resistors for controlling MOSFETs.
+-Testing effects of indicators on connected hardware.
+
+Development results:
+-Low gate capacitance on MOSFETs does not influence high-frequency operations.
+-665k resistors are the highest that can mitigate static electricity on MOSFETs.
+-Connected resistors do not interfere with tested analog measurements.
+
+Quick turnaround prototype v1.4 continues development:
+Goals for v1.4:
+-Establish USB communication with IC and enable serial programming via USB.
+-Prepare the board for multiple options of ICs.
+-Basic schematic to begin user testing.
+
+Development results:
+-Established USB communication using TF232.
+-Placement for ATMEGA328PB-AU and -MU; TF232 and CH340.
+Problems:
+   -Manual reset is needed after uploading program.
+   -Apparent clock frequency changes randomly.

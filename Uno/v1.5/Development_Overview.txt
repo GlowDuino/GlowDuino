@@ -1,0 +1,21 @@
+Goals for v1.5:
+-Fixing programming issues.
+-Fixing clock frequency issues.
+-Preparing board for global chip shortage.
+-Changing Type-C connector to THT high tolerance
+-Changing power jack to THT high tolerance
+
+Development results:
+-Changed board connectors.
+-Changing to CH340 for later development due to global chip shortage.
+-Permanent ATMEGA328PB-AU for later development.
+-Fixed programming issues using v1.4 development boards with added external circuitry:
+-> Permanent fix for v1.5 with adjusted fuse settings.
+-> Fuse settings for later versions:
+      HIGH: FF
+       LOW: DE
+  EXTENDED: F5
+-External 16MHz crystal
+-Boot start address: $3F00
+-Serial programming enabled
+-Brown-out detection: 2.7V
