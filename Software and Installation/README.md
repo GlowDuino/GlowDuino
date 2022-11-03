@@ -15,7 +15,7 @@ installing our boards package through the Boards Manager.
 2.  In the Preferences dialog, find the "Additional Boards Manager URLs" text
     box. Copy and paste the following URL into this box:
 
-    **...**
+    **`https://github.com/GlowDuino/GlowDuino/blob/bfae9fddae4921c79a03ea694241665f8aa44436/Software%20and%20Installation/IDE%20files/package_GlowDuino_index.json?raw=true`**
 
     If there are already other URLs in the box, you can either add this one
     separated by a comma or click the button next to the box to open an input
