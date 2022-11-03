@@ -3,3 +3,6 @@ This is the GitHub page for GlowDuino microcontrollers. Here you can find additi
 
 ### Status: Preproduction
 The GlowDuino microcontroller family is under constant development. The Uno variant is now finalized and awaiting production. The first version to be available is the v1.6. Release date will be in the first part of December.
+
+### How to install boards in Arduino IDE software:
+-

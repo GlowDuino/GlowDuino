@@ -1,0 +1,17 @@
+Goals for v1.6:
+-Fixing programming issues.
+-Changing LED resistors to adjustable regulator.
+-Preparing hardware and software for production.
+-Finalizing layout and connectors.
+-Finalizing design,.
+
+Development results:
+-All known bugs fixed for software release.
+-Bootloader finalized and compiled for production.
+-Schematic now in representable condition, finalized for production.
+-LED power supply tested.
+->No issues found.
+->LED brightness reduced for eye comfort.
+
+>>>v1.6 REV3 to enter productin<<<
+-Starting with initial testing batch to discover potential bugs while in use.
