@@ -30,3 +30,33 @@ installing our boards package through the Boards Manager.
 
 6.  Select the "GlowDuino Boards" entry in the list, and click the
     "Install" button.
+	
+## USB driver installation
+
+In case your computer does not already have drivers for the CH340 serial chip, you will need to
+install it manually.
+
+Before installing the driver, check if your GlowDuino board needs it. Check your board variant
+on the underside of the board: If it says **CH340 variant**, then you need to install drivers.
+
+Drivers can be downloaded from the **Drivers** folder
+
+### Windows
+
+1.  Download the **CH340_Windows_driver.zip** file.
+
+2.  Unzip the downloaded file
+
+3.  Run the installer from the unzipped file
+
+### Mac
+
+1.  Download the **CH340_Macintosh_driver.zip** file.
+
+2.  Run the installer from the unzipped file
+
+### Linux
+
+Drivers are almost certainly built into your Linux kernel already and it will probably just work
+as soon as you plug it in.  If not you can download the **CH340_Linux_driver** (but I’d recommend
+just upgrading your Linux install so that you get the  “built-in” one).
