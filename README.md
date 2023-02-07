@@ -8,5 +8,5 @@ Development continues on the Uno board while work on other variants starts.
 ### How to install boards in Arduino IDE software:
 For a detailed walkthrough, please see the instructions in the **Software and Installation** folder.
 
-###Programing GlowDuino boards:
+### Programing GlowDuino boards:
 GlowDuino boards have new features that have no equivalent in the Arduino IDE. For more info on how to use these features, take a look at the **Users guide** folder.
