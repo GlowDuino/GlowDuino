@@ -1,0 +1,62 @@
+##GlowDuino Boards User Guide
+This user guide covers the usage of the new features of the Atmega328PB.
+
+###Feature summary
+Compared to a general Arduino board, the GlowDuino Uno has the following added 
+features:
+-Four additional GPIO pins, two of which can be used as analog inputs (A6, A7, 22, 23)
+-Three additional PWM pins, totaling nine
+-One additional Serial port
+-One additional I²C interface
+-One additional SPI interface
+-Two additional internal 16 bit timers (TC3, TC4)
+-Higher current rating: 1A for both 5V and 3.3V power line
+
+On top of these features, the Uno board supports two output voltage options, 3.3V and 
+5V. You can switch between these with the toggle switch on the side of the board.
+
+In conclusion, the Uno board has the following features:
+-Atmeg 328PB microcontroller
+	-32KB Flash memory
+	-2KB SRAM
+	-1KB EEPROM
+	-16MHz external crystal oscillator
+	-5 Internal timers
+	-Preloaded Arduino IDE-compatible bootloader
+-24 GPIO pins
+	-40mA GPIO current
+	-8 Analog inputs (A0-7)
+	-9 PWM outputs	(0,1,2,3,5,6,9,10,11)
+	-2 Serial ports (0,1, 11,12)
+	-2 I²C interfaces (A5,A4, 22,23)
+	-2 SPI interfaces (10,11,12,13, A0,A1,A6,A7)
+-Switchable GPIO voltage (5V, 3.3V)
+-High power 5V and 3.3V rail
+	-1A Max
+-20 GPIO indicator LEDs
+	-665K MAX input resistance
+-CH340 USB-Serial converter (Serial 0)
+-6pin ICSP header for direct programming
+-USB Type-C connector (for programming)
+-Power jack (for additional power)
+	-Recommended voltage range: 7-12V
+	-Maximum voltage range: 6-20V
+
+###Using the new features
+Follow the instructions in the **Software and Installation** folder in order to be 
+able to use the board with the Arduino IDE software.
+
+To use the additional four pins, you can refer to them in the program by their name 
+written on the board (22,23,A6,A7). The `digitalRead` and `digitalWrite` function 
+works on these pins as well.
+
+Using both serial ports in Arduino IDE works by referring to them as `Serial` and 
+`Serial1` (for serial 0 and serial 1).
+
+To use the second I²C and SPI interfaces, you can install MiniCore for Arduino IDE 
+from [this link](https://github.com/MCUdude/MiniCore), or access the registers 
+directly from your program to define interrupts for them.
+
+In case you do not wish to use any of the new features, you can upload a generic 
+Arduino Uno bootloader to your GlowDuino Uno via the ICSP header. Once uploaded, the
+microcontroller will behave just like an Arduino Uno would.
