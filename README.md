@@ -10,3 +10,5 @@ For a detailed walkthrough, please see the instructions in the **Software and In
 
 ### Programing GlowDuino boards:
 GlowDuino boards have new features that have no equivalent in the Arduino IDE. For more info on how to use these features, take a look at the **Users guide** folder.
+
+If you need some help from the community, or you just wanna show off your project, then visit out facebook group at [facebook.com/groups/glowduino](https://www.facebook.com/groups/glowduino)
