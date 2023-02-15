@@ -1,4 +1,4 @@
-### GlowDuino Microcontroller Family
+## GlowDuino Microcontroller Family
 This is the GitHub page for [GlowDuino](https://www.glowduino.com/) microcontrollers. Here you can find additional information about the hardware and software involved with the project, that is not available on the arduino.cc website. Just check the version number on the back of the board and open the corresponding folder.
 
 ### Status: Evaluation and limited sale

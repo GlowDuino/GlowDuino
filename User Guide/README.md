@@ -1,7 +1,7 @@
 ## GlowDuino Boards User Guide
 This user guide covers the usage of the new features of the Atmega328PB.
 
-### Feature summary
+### Feature Summary
 Compared to a general Arduino board, the GlowDuino Uno has the following added 
 features:
 - Four additional GPIO pins, two of which can be used as analog inputs (A6, A7, 22, 23)
@@ -9,7 +9,7 @@ features:
 - One additional Serial port
 - One additional I²C interface
 - One additional SPI interface
-- Two additional internal 16 bit timers (TC3, TC4)
+- Two additional internal 16-bit timers (TC3, TC4)
 - Higher current rating: 1A for both 5V and 3.3V power line
 
 On top of these features, the Uno board supports two output voltage options, 3.3V and 
@@ -46,17 +46,28 @@ In conclusion, the Uno board has the following features:
 Follow the instructions in the **Software and Installation** folder in order to be 
 able to use the board with the Arduino IDE software.
 
-To use the additional four pins, you can refer to them in the program by their name 
+To use the **additional four pins**, you can refer to them in the program by their name 
 written on the board (22,23,A6,A7). The `digitalRead` and `digitalWrite` function 
 works on these pins as well.
 
-Using both serial ports in Arduino IDE works by referring to them as `Serial` and 
+**Using both serial ports** in Arduino IDE works by referring to them as `Serial` and 
 `Serial1` (for serial 0 and serial 1).
 
-To use the second I²C and SPI interfaces, you can install MiniCore for Arduino IDE 
+To **use the second I²C and SPI interfaces**, you can install MiniCore for Arduino IDE 
 from [this link](https://github.com/MCUdude/MiniCore), or access the registers 
 directly from your program to define interrupts for them.
 
 In case you do not wish to use any of the new features, you can upload a generic 
-Arduino Uno bootloader to your GlowDuino Uno via the ICSP header. Once uploaded, the
-microcontroller will behave just like an Arduino Uno would.
+Arduino Uno bootloader to your GlowDuino Uno via the ICSP header. When uploading, make
+ sure to use the -f option in avrdude to disregard the IC signature mismatch. Once uploaded,
+the microcontroller will behave just like an Arduino Uno would. The voltage level changer 
+switch will still work but none of the other features will be accessible.
+
+### Pin differences
+Every pin with an indicator LED has a pull-down resistor with a value of **665 kilo ohms**.
+This means these pins are not floating pins. In our testing, this does not interfere
+with analog or digital measurements and causes no disturbance when using capacitive touch 
+sensing. However, you will not be able to use such an analog pin for nondeterministic operations,
+such as random number generation. For these purposes, you can substitute these pins with either
+the **A6** or **A7** analog pins, which do not have pull-down resistors and as such are considered
+floating pins. 
