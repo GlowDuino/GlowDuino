@@ -1,0 +1,4 @@
+LOW:  FF
+HIGH: DE
+EXT:  F5
+LOCK: *leave unchanged*
