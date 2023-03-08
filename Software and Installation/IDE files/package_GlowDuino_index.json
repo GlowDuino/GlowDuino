@@ -24,7 +24,7 @@
                     "name": "GlowDuino Boards",
                     "size": "35604",
                     "toolsDependencies": [],
-                    "url": "https://github.com/GlowDuino/GlowDuino/blob/2557feff570ac11153d4f1a921309cb08cf3d62b/Software%20and%20Installation/IDE%20files/GlowDuino2.0.1.zip?raw=true",
+                    "url": "https://github.com/GlowDuino/GlowDuino/blob/main/Software%20and%20Installation/IDE%20files/GlowDuino2.0.1.zip?raw=true",
                     "version": "2.0.1"
                 },
 				{
@@ -43,7 +43,7 @@
                     "name": "GlowDuino Boards",
                     "size": "36664",
                     "toolsDependencies": [],
-                    "url": "https://github.com/GlowDuino/GlowDuino/blob/1840604027e1c532bea962bf9b3b591d668a0c9f/Software%20and%20Installation/IDE%20files/GlowDuino2.0.2.zip",
+                    "url": "https://github.com/GlowDuino/GlowDuino/blob/main/Software%20and%20Installation/IDE%20files/GlowDuino2.0.2.zip?raw=true",
                     "version": "2.0.2"
                 }
             ],
