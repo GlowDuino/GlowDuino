@@ -70,4 +70,5 @@ with analog or digital measurements and causes no disturbance when using capacit
 sensing. However, you will not be able to use such an analog pin for nondeterministic operations,
 such as random number generation. For these purposes, you can substitute these pins with either
 the **A6** or **A7** analog pins, which do not have pull-down resistors and as such are considered
-floating pins. 
+floating pins. If you need more than just two pins, you can cut the jumper pads next to the other
+analog pins to disconnect the pull-down resistor of that particular pin.
