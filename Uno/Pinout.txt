@@ -1,0 +1,50 @@
+Warning! On v1.6 boards, the label of pins A6 and A7 are switched.
+In the IDE package 2.0.2 and up, you can refer to them as their
+visible labels. Despite the labeling issue, all boards feature
+the same pinout as described in this diagram.
+
+PIN:				 LABEL:
+PE1,SCL1,T4,D23 		 - 23
+PE0,SDA1,D22 			 - 22
+PE2,SS1,D20,A6 			 - A6
+PE3,T3,MOSI1,D21,A7 		 - A7
+Chip Voltage 			 - IOREF
+Reset 				 - RESET
+3.3V Out 			 - 3.3V
+5V Out 				 - 5V
+GND 				 - GND
+GND 				 - GND
+Voltage In 			 - Vin
+Not Connected 			 - NC
+PC0,MISO1,D14,A0 		 - A0
+PC1,SCK1,D15,A1 		 - A1
+PC2D16,A2 			 - A2
+PC3,D17,A3 			 - A3
+PC4,D18,A4 			 - A4
+PC5,D19,A5 			 - A5
+ 
+D19,A5,SCL0 			 - SCL
+D18,A4,SDA0 			 - SDA
+Analog Voltage Reference	 - AREF
+GND 				 - GND
+PB5,SCK0,D13 			 - 13
+PB4,MISO0,D12 			 - 12
+PB3,MOSI0,PWM,D11 		 - 11
+PB2,SS0,PWM,D10 		 - 10
+PB1,PWM,D9 		 	 - 9
+PB0,D8 				 - 8
+PD7,D7 				 - 7
+PD6,PWM,D6 			 - 6
+PD5,T1,PWM,D5 			 - 5
+PD4,T0,D4 			 - 4
+PD3,INT1,PWM,D3 		 - 3
+PD2,INT0,PWM,D2 		 - 2
+PD1,TXD0,PWM,D1 		 - Tx
+PD0,RXD0,PWM,D0 		 - Rx
+
+All pins with an indicator led feature a 665k pulldown resistor.
+PE pins have no such resistor.
+
+ISCP pinout:
+Reset,SCK0,MISO0
+GND,MOSI0,VCC
