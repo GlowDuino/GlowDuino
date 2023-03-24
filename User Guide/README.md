@@ -53,15 +53,16 @@ works on these pins as well.
 **Using both serial ports** in Arduino IDE works by referring to them as `Serial` and 
 `Serial1` (for serial 0 and serial 1).
 
-To **use the second I²C and SPI interfaces**, you can install MiniCore for Arduino IDE 
-from [this link](https://github.com/MCUdude/MiniCore), or access the registers 
-directly from your program to define interrupts for them.
+To **use the second I²C interface**, update the IDE package version to 2.0.3 or higher,
+and you can include the **Wire1.h** library into your sketch and address it as **Wire1**.
+Similarly, you can **use the second SPI interface** as well. Include the **SPI1** library into
+your sketch and address it as **SPI1**.
 
-In case you do not wish to use any of the new features, you can upload a generic 
-Arduino Uno bootloader to your GlowDuino Uno via the ICSP header. When uploading, make
- sure to use the -f option in avrdude to disregard the IC signature mismatch. Once uploaded,
-the microcontroller will behave just like an Arduino Uno would. The voltage level changer 
-switch will still work but none of the other features will be accessible.
+In case you do not wish to use any of the new features and want to run your board in 328P mode,
+you can upload a generic Arduino Uno bootloader to your GlowDuino Uno via the ICSP header.
+When uploading, make sure to use the -f option in avrdude to disregard the IC signature
+mismatch. Once uploaded, the microcontroller will behave just like an Arduino Uno would. The
+voltage level changer switch will still work but none of the other added features will be accessible.
 
 ### Pin differences
 Every pin with an indicator LED has a pull-down resistor with a value of **665 kilo ohms**.
