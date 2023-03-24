@@ -45,6 +45,25 @@
                     "toolsDependencies": [],
                     "url": "https://github.com/GlowDuino/GlowDuino/blob/main/Software%20and%20Installation/IDE%20files/GlowDuino2.0.2.zip?raw=true",
                     "version": "2.0.2"
+                },
+				{
+                    "architecture": "avr",
+                    "archiveFileName": "GlowDuino2.0.3.zip",
+                    "boards": [
+                        {
+                            "name": "GlowDuino Uno"
+                        }
+                    ],
+                    "category": "Contributed",
+                    "checksum": "SHA-256:6e08156bea3c6f1a252154de7af4c12025941f81416ea27e054e22506375c54e",
+                    "help": {
+                        "online": "https://www.github.com/GlowDuino/GlowDuino"
+                    },
+                    "name": "GlowDuino Boards",
+                    "size": "136679",
+                    "toolsDependencies": [],
+                    "url": "https://github.com/GlowDuino/GlowDuino/blob/main/Software%20and%20Installation/IDE%20files/GlowDuino2.0.3.zip?raw=true",
+                    "version": "2.0.3"
                 }
             ],
             "tools": [],
