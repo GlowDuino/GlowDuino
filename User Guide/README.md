@@ -53,10 +53,10 @@ works on these pins as well.
 **Using both serial ports** in Arduino IDE works by referring to them as `Serial` and 
 `Serial1` (for serial 0 and serial 1).
 
-To **use the second I²C interface**, update the IDE package version to 2.0.3 or higher,
-and you can include the **Wire1.h** library into your sketch and address it as **Wire1**.
-Similarly, you can **use the second SPI interface** as well. Include the **SPI1** library into
-your sketch and address it as **SPI1**.
+To **use the second I²C interface**, update the IDE package version to 2.0.3 or higher.
+After that, you can include the **Wire1.h** library into your sketch and address it as `Wire1`.
+Similarly, you can **use the second SPI interface** as well. Include the **SPI1.h** library into
+your sketch and address it as `SPI1`.
 
 In case you do not wish to use any of the new features and want to run your board in 328P mode,
 you can upload a generic Arduino Uno bootloader to your GlowDuino Uno via the ICSP header.

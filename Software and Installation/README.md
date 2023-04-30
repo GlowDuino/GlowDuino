@@ -51,9 +51,11 @@ Drivers can be downloaded from the **Drivers** folder
 
 ### Mac
 
-1.  Download the **CH340_Macintosh_driver.zip** file.
+1.  Download the **CH340_Macintosh_driver.pkg** file.
 
-2.  Run the installer from the unzipped file
+2.  Unpack the downloaded file
+
+3.  Run the installer from the unpacked file
 
 ### Linux
 
