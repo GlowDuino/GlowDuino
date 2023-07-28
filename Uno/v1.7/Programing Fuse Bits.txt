@@ -1,0 +1,10 @@
+LOW:  FF
+HIGH: DE
+EXT:  F5
+LOCK: *leave unchanged*
+
+-External 16MHz crystal
+-Boot reset vector enabled
+-Boot Flash size: 256words, Address: $3F00
+-Serial programing enabled
+-Brown out detecton: 2.7V

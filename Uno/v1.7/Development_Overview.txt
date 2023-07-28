@@ -1,0 +1,13 @@
+Goals for v1.7:
+-Correcting A6 A7 labeling mismatch.
+-Correcting IDE board package.
+-Preparing hardware and software for large scale production.
+-Finalizing layout and connectors.
+
+Development results:
+-Confirmed correct production files.
+-IDE package 2.0.4 released for the new version of board.
+-Schematic and gerber files confirmed, finalized for production.
+
+>>>v1.7 REV1 to enter large scale productin<<<
+-Starting with initial testing batch to discover potential bugs while in use.
