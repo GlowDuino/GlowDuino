@@ -3,10 +3,10 @@
         {
             "email": "contact.glowduino@gmail.com",
             "help": {
-                "online": "https://www.glowduino.com"
+                "online": "https://github.com/GlowDuino/GlowDuino/tree/main"
             },
             "maintainer": "GlowDuino",
-            "name": "GlowDuino Boards",
+            "name": "GlowDuinoBoards",
             "platforms": [
                 {
                     "architecture": "avr",
@@ -21,7 +21,7 @@
                     "help": {
                         "online": "https://www.github.com/GlowDuino/GlowDuino"
                     },
-                    "name": "GlowDuino Boards",
+                    "name": "GlowDuinoBoards",
                     "size": "34826",
                     "toolsDependencies": [],
                     "url": "https://github.com/GlowDuino/GlowDuino/blob/main/Software%20and%20Installation/IDE%20files/GlowDuino2.0.1.zip?raw=true",
@@ -40,7 +40,7 @@
                     "help": {
                         "online": "https://www.github.com/GlowDuino/GlowDuino"
                     },
-                    "name": "GlowDuino Boards",
+                    "name": "GlowDuinoBoards",
                     "size": "34982",
                     "toolsDependencies": [],
                     "url": "https://github.com/GlowDuino/GlowDuino/blob/main/Software%20and%20Installation/IDE%20files/GlowDuino2.0.2.zip?raw=true",
@@ -59,7 +59,7 @@
                     "help": {
                         "online": "https://www.github.com/GlowDuino/GlowDuino"
                     },
-                    "name": "GlowDuino Boards",
+                    "name": "GlowDuinoBoards",
                     "size": "136679",
                     "toolsDependencies": [],
                     "url": "https://github.com/GlowDuino/GlowDuino/blob/main/Software%20and%20Installation/IDE%20files/GlowDuino2.0.3.zip?raw=true",
@@ -78,15 +78,34 @@
                     "help": {
                         "online": "https://www.github.com/GlowDuino/GlowDuino"
                     },
-                    "name": "GlowDuino Boards",
+                    "name": "GlowDuinoBoards",
                     "size": "139847",
                     "toolsDependencies": [],
                     "url": "https://github.com/GlowDuino/GlowDuino/blob/main/Software%20and%20Installation/IDE%20files/GlowDuino2.0.4.zip?raw=true",
                     "version": "2.0.4"
+                },
+				{
+                    "architecture": "avr",
+                    "archiveFileName": "GlowDuino2.0.5.zip",
+                    "boards": [
+                        {
+                            "name": "GlowDuino Uno"
+                        }
+                    ],
+                    "category": "Contributed",
+                    "checksum": "SHA-256:D41D3CCE21F5C63E1EB8197B0CC2B6CE4F00E82F92D117F872BBA5CAD5A2AECE",
+                    "help": {
+                        "online": "https://www.github.com/GlowDuino/GlowDuino"
+                    },
+                    "name": "GlowDuinoBoards",
+                    "size": "131371",
+                    "toolsDependencies": [],
+                    "url": "https://github.com/GlowDuino/GlowDuino/blob/main/Software%20and%20Installation/IDE%20files/GlowDuino2.0.5.zip?raw=true",
+                    "version": "2.0.5"
                 }
             ],
             "tools": [],
-            "websiteURL": "https://www.glowduino.com/"
+            "websiteURL": "https://github.com/GlowDuino/GlowDuino/tree/main"
         }
     ]
 }
